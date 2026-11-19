@@ -1,0 +1,110 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    overflow: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom sleek scrollbars matching Telegram Web */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.55);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.22);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.38);
+}
+
+/* Telegram-authentic subtle geometric doodle wallpaper patterns */
+.sarigram-wallpaper-classic {
+  background-color: #eef2ff;
+  background-image:
+    radial-gradient(circle at 18% 22%, rgba(59, 130, 246, 0.14) 0%, transparent 45%),
+    radial-gradient(circle at 82% 78%, rgba(124, 58, 237, 0.14) 0%, transparent 45%),
+    url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%236366f1' stroke-opacity='0.12' stroke-width='1.5'%3E%3Cpath d='M18 24l12-5-5 12-2-5-5-2z'/%3E%3Ccircle cx='85' cy='26' r='6'/%3E%3Cpath d='M52 58c4-6 12-6 16 0s-4 12-8 12-12-6-8-12z'/%3E%3Cpath d='M22 92h14M29 85v14'/%3E%3Cpath d='M86 84l10 10M96 84l-10 10'/%3E%3Crect x='54' y='14' width='10' height='10' rx='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.dark .sarigram-wallpaper-classic {
+  background-color: #0e1424;
+  background-image:
+    radial-gradient(circle at 20% 25%, rgba(59, 130, 246, 0.18) 0%, transparent 50%),
+    radial-gradient(circle at 80% 75%, rgba(124, 58, 237, 0.18) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23818cf8' stroke-opacity='0.12' stroke-width='1.5'%3E%3Cpath d='M18 24l12-5-5 12-2-5-5-2z'/%3E%3Ccircle cx='85' cy='26' r='6'/%3E%3Cpath d='M52 58c4-6 12-6 16 0s-4 12-8 12-12-6-8-12z'/%3E%3Cpath d='M22 92h14M29 85v14'/%3E%3Cpath d='M86 84l10 10M96 84l-10 10'/%3E%3Crect x='54' y='14' width='10' height='10' rx='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.sarigram-wallpaper-sky {
+  background-color: #e0ecff;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(37, 99, 235, 0.14) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(124, 58, 237, 0.14) 0%, transparent 45%),
+    url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%234f46e5' stroke-opacity='0.11' stroke-width='1.4'%3E%3Cpath d='M18 24l12-5-5 12-2-5-5-2z'/%3E%3Ccircle cx='85' cy='26' r='6'/%3E%3Crect x='54' y='14' width='10' height='10' rx='3'/%3E%3Cpath d='M22 92h14M29 85v14'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.dark .sarigram-wallpaper-sky {
+  background-color: #0b162b;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(59, 130, 246, 0.18) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(124, 58, 237, 0.16) 0%, transparent 45%),
+    url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23818cf8' stroke-opacity='0.11' stroke-width='1.4'%3E%3Cpath d='M18 24l12-5-5 12-2-5-5-2z'/%3E%3Ccircle cx='85' cy='26' r='6'/%3E%3Crect x='54' y='14' width='10' height='10' rx='3'/%3E%3Cpath d='M22 92h14M29 85v14'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.sarigram-wallpaper-minimal {
+  background-color: #f1f5f9;
+}
+
+.dark .sarigram-wallpaper-minimal {
+  background-color: #0f172a;
+}
+
+.sarigram-wallpaper-midnight {
+  background-color: #e4e9f7;
+  background-image: linear-gradient(135deg, rgba(79, 70, 229, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+}
+
+.dark .sarigram-wallpaper-midnight {
+  background-color: #090e1c;
+  background-image: linear-gradient(135deg, rgba(37, 99, 235, 0.18) 0%, rgba(109, 40, 217, 0.2) 100%);
+}
+
+html.sarigram-power-saving *,
+html.sarigram-power-saving *::before,
+html.sarigram-power-saving *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}

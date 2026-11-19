@@ -1,0 +1,863 @@
+{
+  "users": {
+    "user-sari-1": {
+      "id": "user-sari-1",
+      "firstName": "Sari",
+      "lastName": "Explorer",
+      "username": "sari_explorer",
+      "phone": "+1 415 890 2341",
+      "bio": "Designing calm, fast communication spaces on Sarigram.",
+      "avatarColor": "#3390EC",
+      "role": "admin",
+      "status": "active",
+      "passwordHash": "6216eb3825af3ffe778034e34210b7f7:73f75f250f6a3e0a4decbaa23c59a801f35a1c2966153fd8a013c11820a2b4bf19fcb83386f92ed2957c6109874e0d3eafd02abec4ba30a6f1f420a16570487a"
+    },
+    "user-7a54bef4": {
+      "id": "user-7a54bef4",
+      "firstName": "Test",
+      "lastName": "Member",
+      "username": "verify_member_1795018255418",
+      "phone": "+1 415 134 9005",
+      "bio": "Available on Sarigram",
+      "avatarColor": "#5B5CE6",
+      "role": "member",
+      "status": "active",
+      "passwordHash": "0601d96717fd396bb5978b8d37b856ba:a4657fdc0784e9ffe5817306d4373d061caea381ae5433d1b857f084a18b365af847c3d55b86985ba401f87d29ca9f47775b16e589b4d140e1e2b25725af1bba",
+      "lastSeen": "online"
+    },
+    "user-54282b13": {
+      "id": "user-54282b13",
+      "firstName": "Sadam",
+      "lastName": "Ahmed",
+      "username": "sadamahmed",
+      "email": "kallichamio@gmail.com",
+      "phone": "+251 912767666",
+      "bio": "Allahu Wakiil",
+      "avatarColor": "#5B5CE6",
+      "role": "admin",
+      "status": "active",
+      "birthdate": "1994-01-01",
+      "lastSeen": "online",
+      "isOnline": false,
+      "passwordHash": "e173bcadc22bcfe5710c6ee2598404ef:e03d3d374cb980c9cc7a4abb0ff4e4d0ba573ca9bbd9340b6f3fca0317dbdc5265d3efbc2903e6f4454b69ff3f8ae3fb551a2aaf1f133b7ac28dae6e12510f21"
+    }
+  },
+  "sessions": {
+    "50e2aebf1420e10692b6abc26f1c3931cf42a5a488953fd5": "user-sari-1",
+    "020f872d9e2c3cbecb1d8c5ede92d7615fb7ede2df103fdf": "user-sari-1",
+    "23ed997ebff87c77dce65328e7cc85e2876019a76103e90d": "user-7a54bef4"
+  },
+  "lastSeenByUser": {
+    "user-sari-1": "2026-11-18T16:09:23.881Z"
+  },
+  "chats": [
+    {
+      "id": "chat-saved-user-7a54bef4",
+      "type": "saved",
+      "title": "Saved Messages",
+      "description": "Your personal cloud storage on Sarigram.",
+      "avatarColor": "#5B5CE6",
+      "isPinned": true,
+      "memberIds": [
+        "user-7a54bef4"
+      ],
+      "adminIds": [
+        "user-7a54bef4"
+      ],
+      "unreadBy": {}
+    },
+    {
+      "id": "chat-saved-user-c5a0fba7",
+      "type": "saved",
+      "title": "Saved Messages",
+      "description": "Your personal cloud storage on Sarigram.",
+      "avatarColor": "#5B5CE6",
+      "isPinned": true,
+      "memberIds": [
+        "user-c5a0fba7"
+      ],
+      "adminIds": [
+        "user-c5a0fba7"
+      ],
+      "unreadBy": {}
+    },
+    {
+      "id": "chat-saved",
+      "type": "saved",
+      "title": "Saved Messages",
+      "description": "Your personal cloud storage on Sarigram. Forward messages, links, files, and notes here.",
+      "avatarColor": "#3390EC",
+      "isPinned": true,
+      "memberIds": [
+        "user-sari-1"
+      ],
+      "adminIds": [
+        "user-sari-1"
+      ],
+      "unreadBy": {
+        "user-sari-1": 0
+      }
+    },
+    {
+      "id": "chat-sarigram-news",
+      "type": "channel",
+      "title": "Sarigram News",
+      "username": "sarigram_news",
+      "description": "Official announcements, release notes, and platform milestones from the Sarigram team.",
+      "avatarUrl": "/brand/sarigram-profile-512.png",
+      "avatarColor": "#1E5B88",
+      "verified": true,
+      "isPinned": true,
+      "subscriberCount": 48290,
+      "memberIds": [
+        "user-sari-1",
+        "user-c5a0fba7",
+        "user-7a54bef4"
+      ],
+      "adminIds": [
+        "user-sari-1"
+      ],
+      "pinnedMessageId": "msg-news-2",
+      "unreadBy": {
+        "user-sari-1": 0
+      }
+    },
+    {
+      "id": "chat-core-team",
+      "type": "group",
+      "title": "Sarigram Core Studio",
+      "username": "sarigram_studio",
+      "description": "Daily design critiques, WebSocket sync testing, and product architecture.",
+      "avatarUrl": "/src/assets/images/avatar_design_studio_1795015829890.jpg",
+      "avatarColor": "#C59B6D",
+      "memberCount": 6,
+      "memberIds": [
+        "user-sari-1",
+        "contact-elena",
+        "contact-marcus",
+        "contact-nadia",
+        "contact-kenji",
+        "contact-sofia"
+      ],
+      "adminIds": [
+        "user-sari-1",
+        "contact-elena"
+      ],
+      "pinnedMessageId": "msg-group-1",
+      "unreadBy": {
+        "user-sari-1": 0
+      }
+    },
+    {
+      "id": "chat-elena",
+      "type": "private",
+      "title": "Elena Rostova",
+      "username": "elena_rostova",
+      "description": "Product Architect · Copenhagen & SF",
+      "avatarColor": "#E17076",
+      "memberIds": [
+        "user-sari-1",
+        "contact-elena"
+      ],
+      "adminIds": [
+        "user-sari-1"
+      ],
+      "unreadBy": {
+        "user-sari-1": 0
+      }
+    },
+    {
+      "id": "chat-design-channel",
+      "type": "channel",
+      "title": "Architecture & Light",
+      "username": "arch_light",
+      "description": "Curated architectural spaces, travertine studies, and creative studio setups.",
+      "avatarUrl": "/src/assets/images/avatar_design_studio_1795015829890.jpg",
+      "avatarColor": "#A68A64",
+      "verified": true,
+      "subscriberCount": 19430,
+      "memberIds": [
+        "user-sari-1"
+      ],
+      "adminIds": [
+        "contact-nadia",
+        "user-sari-1"
+      ],
+      "unreadBy": {}
+    },
+    {
+      "id": "chat-tech-digest",
+      "type": "channel",
+      "title": "Systems & Craft Digest",
+      "username": "systems_digest",
+      "description": "Notes on distributed state, WebSocket resilience, and modern web engineering.",
+      "avatarUrl": "/src/assets/images/avatar_tech_digest_1795015829586.jpg",
+      "avatarColor": "#3B4D5E",
+      "subscriberCount": 12840,
+      "memberIds": [
+        "user-sari-1"
+      ],
+      "adminIds": [
+        "contact-marcus",
+        "user-sari-1"
+      ],
+      "unreadBy": {}
+    },
+    {
+      "id": "chat-runners",
+      "type": "group",
+      "title": "Waterfront Runners",
+      "username": "waterfront_run",
+      "description": "Weekly 8K morning runs along the promenade. All paces welcome.",
+      "avatarColor": "#6EC9CB",
+      "memberCount": 28,
+      "memberIds": [
+        "user-sari-1",
+        "contact-sofia",
+        "contact-kenji"
+      ],
+      "adminIds": [
+        "contact-sofia",
+        "user-sari-1"
+      ],
+      "unreadBy": {}
+    },
+    {
+      "id": "chat-marcus",
+      "type": "private",
+      "title": "Marcus Vance",
+      "username": "mvance",
+      "description": "Distributed systems & realtime protocols",
+      "avatarColor": "#7BC862",
+      "memberIds": [
+        "user-sari-1",
+        "contact-marcus"
+      ],
+      "adminIds": [
+        "user-sari-1"
+      ],
+      "unreadBy": {
+        "user-sari-1": 0
+      }
+    },
+    {
+      "id": "chat-saribot",
+      "type": "bot",
+      "title": "SariBot",
+      "username": "saribot",
+      "description": "Official Sarigram utility bot. Send /help, /stats, /shortcuts, or /about.",
+      "avatarUrl": "/brand/sarigram-profile-512.png",
+      "avatarColor": "#2AABEE",
+      "verified": true,
+      "memberIds": [
+        "user-sari-1",
+        "user-c5a0fba7",
+        "user-7a54bef4"
+      ],
+      "adminIds": [
+        "bot-saribot"
+      ],
+      "unreadBy": {}
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-saved-1",
+      "chatId": "chat-saved",
+      "senderId": "user-sari-1",
+      "senderName": "Sari Explorer",
+      "senderAvatarColor": "#3390EC",
+      "type": "text",
+      "text": "Welcome to your Sarigram Saved Messages. Drop links, notes, photos, or forward posts from any channel to keep them synced in your personal cloud.",
+      "timestamp": "2026-11-18T03:36:06.667Z",
+      "reactions": [],
+      "readBy": [
+        "user-sari-1"
+      ]
+    },
+    {
+      "id": "msg-saved-2",
+      "chatId": "chat-saved",
+      "senderId": "user-sari-1",
+      "senderName": "Sari Explorer",
+      "senderAvatarColor": "#3390EC",
+      "type": "image",
+      "text": "Studio desk inspiration for Q4 refresh.",
+      "mediaUrl": "/src/assets/images/media_workspace_desk_1795015832036.jpg",
+      "forwardedFrom": "Architecture & Light",
+      "timestamp": "2026-11-18T12:36:06.667Z",
+      "reactions": [
+        {
+          "emoji": "🔖",
+          "userIds": [
+            "user-sari-1"
+          ]
+        }
+      ],
+      "readBy": [
+        "user-sari-1"
+      ]
+    },
+    {
+      "id": "msg-news-1",
+      "chatId": "chat-sarigram-news",
+      "senderId": "channel-sarigram-news",
+      "senderName": "Sarigram News",
+      "senderAvatarColor": "#1E5B88",
+      "senderAvatarUrl": "/brand/sarigram-profile-512.png",
+      "type": "text",
+      "text": "Sarigram Cloud Messaging 2.0 is live: instant WebSocket sync across tabs, custom Chat Folders, interactive Polls, Stories, and full Light / Night Blue themes.",
+      "timestamp": "2026-11-18T06:36:06.667Z",
+      "views": 34120,
+      "commentsCount": 2,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "userIds": [
+            "contact-elena",
+            "contact-marcus"
+          ]
+        },
+        {
+          "emoji": "❤️",
+          "userIds": [
+            "contact-sofia"
+          ]
+        },
+        {
+          "emoji": "👏",
+          "userIds": [
+            "contact-kenji"
+          ]
+        }
+      ],
+      "readBy": [
+        "user-sari-1"
+      ]
+    },
+    {
+      "id": "msg-news-2",
+      "chatId": "chat-sarigram-news",
+      "senderId": "channel-sarigram-news",
+      "senderName": "Sarigram News",
+      "senderAvatarColor": "#1E5B88",
+      "senderAvatarUrl": "/brand/sarigram-profile-512.png",
+      "type": "poll",
+      "text": "Which Sarigram workspace feature do you rely on most every day?",
+      "poll": {
+        "question": "Which Sarigram feature do you rely on most?",
+        "isAnonymous": false,
+        "multipleChoice": false,
+        "options": [
+          {
+            "id": "opt-1",
+            "text": "Broadcast Channels & Discussions",
+            "voterIds": [
+              "contact-elena",
+              "contact-nadia"
+            ]
+          },
+          {
+            "id": "opt-2",
+            "text": "Instant Group Sync & Replies",
+            "voterIds": [
+              "contact-marcus",
+              "contact-sofia"
+            ]
+          },
+          {
+            "id": "opt-3",
+            "text": "Saved Messages Cloud Notes",
+            "voterIds": [
+              "contact-kenji"
+            ]
+          },
+          {
+            "id": "opt-4",
+            "text": "Stories & Custom Wallpapers",
+            "voterIds": []
+          }
+        ]
+      },
+      "timestamp": "2026-11-18T11:36:06.667Z",
+      "views": 28940,
+      "commentsCount": 1,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "contact-marcus"
+          ]
+        }
+      ],
+      "readBy": [
+        "user-sari-1"
+      ]
+    },
+    {
+      "id": "msg-group-1",
+      "chatId": "chat-core-team",
+      "senderId": "contact-elena",
+      "senderName": "Elena Rostova",
+      "senderAvatarColor": "#E17076",
+      "type": "text",
+      "text": "Pinned reminder: We are reviewing the new message bubble geometry, folder tabs, and real-time typing states in today’s design sync.",
+      "timestamp": "2026-11-18T09:36:06.667Z",
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "contact-marcus",
+            "contact-nadia"
+          ]
+        }
+      ],
+      "readBy": [
+        "user-sari-1",
+        "contact-elena"
+      ]
+    },
+    {
+      "id": "msg-group-2",
+      "chatId": "chat-core-team",
+      "senderId": "contact-marcus",
+      "senderName": "Marcus Vance",
+      "senderAvatarColor": "#7BC862",
+      "type": "text",
+      "text": "WebSocket state reconciliation is verified — messages, reactions, pins, and poll votes sync in sub-20ms across every connected client.",
+      "replyToId": "msg-group-1",
+      "timestamp": "2026-11-18T13:36:06.667Z",
+      "reactions": [
+        {
+          "emoji": "⚡",
+          "userIds": [
+            "contact-elena"
+          ]
+        }
+      ],
+      "readBy": [
+        "user-sari-1",
+        "contact-marcus"
+      ]
+    },
+    {
+      "id": "msg-group-3",
+      "chatId": "chat-core-team",
+      "senderId": "contact-nadia",
+      "senderName": "Nadia Khoury",
+      "senderAvatarColor": "#65AADD",
+      "type": "image",
+      "text": "Here is the clean studio setup reference we used for the light-mode surface palette.",
+      "mediaUrl": "/src/assets/images/media_workspace_desk_1795015832036.jpg",
+      "timestamp": "2026-11-18T14:48:06.667Z",
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "userIds": [
+            "contact-elena",
+            "contact-sofia"
+          ]
+        }
+      ],
+      "readBy": [
+        "user-sari-1",
+        "contact-nadia"
+      ]
+    },
+    {
+      "id": "msg-elena-1",
+      "chatId": "chat-elena",
+      "senderId": "contact-elena",
+      "senderName": "Elena Rostova",
+      "senderAvatarColor": "#E17076",
+      "type": "text",
+      "text": "Hey! Just checked the new Sarigram layout in Night Blue mode — the contrast on the outgoing bubbles feels super crisp.",
+      "timestamp": "2026-11-18T14:01:06.667Z",
+      "reactions": [],
+      "readBy": [
+        "user-sari-1",
+        "contact-elena"
+      ]
+    },
+    {
+      "id": "msg-elena-2",
+      "chatId": "chat-elena",
+      "senderId": "user-sari-1",
+      "senderName": "Sari Explorer",
+      "senderAvatarColor": "#3390EC",
+      "type": "text",
+      "text": "Thanks Elena! Try opening the channel comments drawer or creating a live poll right from the paperclip menu.",
+      "replyToId": "msg-elena-1",
+      "timestamp": "2026-11-18T14:14:06.667Z",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "userIds": [
+            "contact-elena"
+          ]
+        }
+      ],
+      "readBy": [
+        "user-sari-1",
+        "contact-elena"
+      ]
+    },
+    {
+      "id": "msg-elena-3",
+      "chatId": "chat-elena",
+      "senderId": "contact-elena",
+      "senderName": "Elena Rostova",
+      "senderAvatarColor": "#E17076",
+      "type": "voice",
+      "text": "Voice message · Quick note about tomorrow’s studio walk-through",
+      "voiceDuration": 18,
+      "timestamp": "2026-11-18T15:12:06.667Z",
+      "reactions": [],
+      "readBy": [
+        "user-sari-1",
+        "contact-elena"
+      ]
+    },
+    {
+      "id": "msg-design-1",
+      "chatId": "chat-design-channel",
+      "senderId": "channel-design",
+      "senderName": "Architecture & Light",
+      "senderAvatarColor": "#A68A64",
+      "senderAvatarUrl": "/src/assets/images/avatar_design_studio_1795015829890.jpg",
+      "type": "image",
+      "text": "Morning light across raw travertine arches. Notice how warm directional shadows define depth without heavy borders.",
+      "mediaUrl": "/src/assets/images/avatar_design_studio_1795015829890.jpg",
+      "timestamp": "2026-11-18T10:36:06.667Z",
+      "views": 14820,
+      "commentsCount": 1,
+      "reactions": [
+        {
+          "emoji": "🤩",
+          "userIds": [
+            "contact-nadia",
+            "contact-elena"
+          ]
+        },
+        {
+          "emoji": "❤️",
+          "userIds": [
+            "contact-sofia"
+          ]
+        }
+      ],
+      "readBy": [
+        "user-sari-1"
+      ]
+    },
+    {
+      "id": "msg-tech-1",
+      "chatId": "chat-tech-digest",
+      "senderId": "channel-tech",
+      "senderName": "Systems & Craft Digest",
+      "senderAvatarColor": "#3B4D5E",
+      "senderAvatarUrl": "/src/assets/images/avatar_tech_digest_1795015829586.jpg",
+      "type": "file",
+      "text": "Field guide attached: Designing idempotent WebSocket event streams for multi-tab messaging clients.",
+      "fileName": "Sarigram-Realtime-Architecture-Notes.pdf",
+      "fileSize": "1.8 MB",
+      "timestamp": "2026-11-18T08:36:06.667Z",
+      "views": 9640,
+      "commentsCount": 0,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "contact-marcus"
+          ]
+        }
+      ],
+      "readBy": [
+        "user-sari-1"
+      ]
+    },
+    {
+      "id": "msg-runners-1",
+      "chatId": "chat-runners",
+      "senderId": "contact-sofia",
+      "senderName": "Sofia Alvarez",
+      "senderAvatarColor": "#FAA774",
+      "type": "poll",
+      "text": "Who is joining Sunday 7:30 AM along the Embarcadero promenade?",
+      "poll": {
+        "question": "Sunday 7:30 AM Waterfront 8K?",
+        "isAnonymous": false,
+        "multipleChoice": false,
+        "options": [
+          {
+            "id": "run-1",
+            "text": "In for the full 8K",
+            "voterIds": [
+              "contact-sofia",
+              "contact-kenji"
+            ]
+          },
+          {
+            "id": "run-2",
+            "text": "Joining for 5K + coffee",
+            "voterIds": [
+              "contact-elena"
+            ]
+          },
+          {
+            "id": "run-3",
+            "text": "Next weekend!",
+            "voterIds": []
+          }
+        ]
+      },
+      "timestamp": "2026-11-18T11:36:06.667Z",
+      "reactions": [],
+      "readBy": [
+        "user-sari-1"
+      ]
+    },
+    {
+      "id": "msg-marcus-1",
+      "chatId": "chat-marcus",
+      "senderId": "contact-marcus",
+      "senderName": "Marcus Vance",
+      "senderAvatarColor": "#7BC862",
+      "type": "text",
+      "text": "Let me know when you want to test multi-client message syncing — open Sarigram in a second browser window to watch live delivery.",
+      "timestamp": "2026-11-18T13:16:06.667Z",
+      "reactions": [],
+      "readBy": [
+        "user-sari-1",
+        "contact-marcus"
+      ]
+    },
+    {
+      "id": "msg-bot-1",
+      "chatId": "chat-saribot",
+      "senderId": "bot-saribot",
+      "senderName": "SariBot",
+      "senderAvatarColor": "#2AABEE",
+      "senderAvatarUrl": "/brand/sarigram-profile-512.png",
+      "type": "text",
+      "text": "Hello! I am SariBot, your Sarigram workspace assistant.\n\nTry sending:\n/stats — Live workspace counts\n/shortcuts — Keyboard shortcuts\n/about — About Sarigram\n/help — All available commands",
+      "timestamp": "2026-11-18T05:36:06.667Z",
+      "reactions": [],
+      "readBy": [
+        "user-sari-1"
+      ]
+    },
+    {
+      "id": "msg-8d9d947b-6bf3-4c8a-a2ae-e805b35a9f7d",
+      "chatId": "chat-marcus",
+      "senderId": "user-sari-1",
+      "senderName": "Sari Explorer",
+      "senderAvatarColor": "#3390EC",
+      "type": "text",
+      "text": "Hi",
+      "timestamp": "2026-11-18T16:03:19.915Z",
+      "reactions": [],
+      "readBy": [
+        "user-sari-1"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-elena",
+      "firstName": "Elena",
+      "lastName": "Rostova",
+      "username": "elena_rostova",
+      "phone": "+1 415 392 8810",
+      "bio": "Product Architect · Copenhagen & SF",
+      "avatarColor": "#E17076",
+      "lastSeen": "online"
+    },
+    {
+      "id": "contact-marcus",
+      "firstName": "Marcus",
+      "lastName": "Vance",
+      "username": "mvance",
+      "phone": "+1 646 218 4409",
+      "bio": "Distributed systems & realtime protocols",
+      "avatarColor": "#7BC862",
+      "lastSeen": "last seen 14m ago"
+    },
+    {
+      "id": "contact-nadia",
+      "firstName": "Nadia",
+      "lastName": "Khoury",
+      "username": "nadiak",
+      "phone": "+44 20 7946 0921",
+      "bio": "Typography, editorial layout & motion craft",
+      "avatarColor": "#65AADD",
+      "lastSeen": "last seen recently"
+    },
+    {
+      "id": "contact-kenji",
+      "firstName": "Kenji",
+      "lastName": "Takahashi",
+      "username": "kenji_t",
+      "phone": "+81 3 5550 1982",
+      "bio": "Audio DSP & mobile interfaces",
+      "avatarColor": "#EE7AAE",
+      "lastSeen": "last seen 2h ago"
+    },
+    {
+      "id": "contact-sofia",
+      "firstName": "Sofia",
+      "lastName": "Alvarez",
+      "username": "sofia_a",
+      "phone": "+34 91 555 0147",
+      "bio": "Community lead & documentary photographer",
+      "avatarColor": "#FAA774",
+      "lastSeen": "online"
+    }
+  ],
+  "stories": [
+    {
+      "id": "story-sofia",
+      "authorId": "contact-sofia",
+      "authorName": "Sofia Alvarez",
+      "authorUsername": "sofia_a",
+      "authorAvatarColor": "#FAA774",
+      "mediaUrl": "/src/assets/images/story_city_sunset_1795015830244.jpg",
+      "caption": "Golden hour walk along the waterfront promenade before sunset.",
+      "createdAt": "2026-11-18T13:36:06.667Z",
+      "viewedBy": [],
+      "reactions": 24
+    },
+    {
+      "id": "story-elena",
+      "authorId": "contact-elena",
+      "authorName": "Elena Rostova",
+      "authorUsername": "elena_rostova",
+      "authorAvatarColor": "#E17076",
+      "mediaUrl": "/src/assets/images/media_workspace_desk_1795015832036.jpg",
+      "caption": "Morning sketch session for the Sarigram desktop composer.",
+      "createdAt": "2026-11-18T11:36:06.667Z",
+      "viewedBy": [],
+      "reactions": 18
+    },
+    {
+      "id": "story-sarigram",
+      "authorId": "channel-sarigram-news",
+      "authorName": "Sarigram News",
+      "authorUsername": "sarigram_news",
+      "authorAvatarColor": "#1E5B88",
+      "authorAvatarUrl": "/brand/sarigram-profile-512.png",
+      "gradient": "linear-gradient(135deg, #1d4ed8 0%, #0284c7 50%, #0ea5e9 100%)",
+      "caption": "Sarigram 2.0 is live: Cloud folders, live polls, stories, and instant WebSocket sync.",
+      "createdAt": "2026-11-18T09:36:06.667Z",
+      "viewedBy": [
+        "user-sari-1"
+      ],
+      "reactions": 142
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt-1",
+      "messageId": "msg-news-1",
+      "chatId": "chat-sarigram-news",
+      "authorId": "contact-elena",
+      "authorName": "Elena Rostova",
+      "authorAvatarColor": "#E17076",
+      "text": "The Night Blue theme and folder tabs feel remarkably clean.",
+      "timestamp": "2026-11-18T07:36:06.667Z"
+    },
+    {
+      "id": "cmt-2",
+      "messageId": "msg-news-1",
+      "chatId": "chat-sarigram-news",
+      "authorId": "contact-marcus",
+      "authorName": "Marcus Vance",
+      "authorAvatarColor": "#7BC862",
+      "text": "Pinned messages and message forwarding work instantaneously too.",
+      "timestamp": "2026-11-18T08:36:06.667Z"
+    },
+    {
+      "id": "cmt-3",
+      "messageId": "msg-news-2",
+      "chatId": "chat-sarigram-news",
+      "authorId": "contact-sofia",
+      "authorName": "Sofia Alvarez",
+      "authorAvatarColor": "#FAA774",
+      "text": "Broadcast channels + discussion threads are my favorite combo.",
+      "timestamp": "2026-11-18T12:36:06.667Z"
+    },
+    {
+      "id": "cmt-4",
+      "messageId": "msg-design-1",
+      "chatId": "chat-design-channel",
+      "authorId": "contact-nadia",
+      "authorName": "Nadia Khoury",
+      "authorAvatarColor": "#65AADD",
+      "text": "Love the natural warm daylight across the stone arches.",
+      "timestamp": "2026-11-18T11:36:06.667Z"
+    }
+  ],
+  "calls": [
+    {
+      "id": "call-6b2dc732",
+      "peerId": "contact-marcus",
+      "peerName": "Marcus Vance",
+      "peerAvatarColor": "#7BC862",
+      "direction": "outgoing",
+      "kind": "video",
+      "durationSeconds": 2,
+      "timestamp": "2026-11-18T16:03:52.691Z"
+    },
+    {
+      "id": "call-1aed0625",
+      "peerId": "contact-marcus",
+      "peerName": "Marcus Vance",
+      "peerAvatarColor": "#7BC862",
+      "direction": "outgoing",
+      "kind": "voice",
+      "durationSeconds": 8,
+      "timestamp": "2026-11-18T16:03:40.868Z"
+    },
+    {
+      "id": "call-1",
+      "peerId": "contact-elena",
+      "peerName": "Elena Rostova",
+      "peerAvatarColor": "#E17076",
+      "direction": "incoming",
+      "kind": "video",
+      "durationSeconds": 742,
+      "timestamp": "2026-11-18T10:36:06.667Z"
+    },
+    {
+      "id": "call-2",
+      "peerId": "contact-marcus",
+      "peerName": "Marcus Vance",
+      "peerAvatarColor": "#7BC862",
+      "direction": "outgoing",
+      "kind": "voice",
+      "durationSeconds": 318,
+      "timestamp": "2026-11-17T21:36:06.667Z"
+    },
+    {
+      "id": "call-3",
+      "peerId": "contact-sofia",
+      "peerName": "Sofia Alvarez",
+      "peerAvatarColor": "#FAA774",
+      "direction": "missed",
+      "kind": "voice",
+      "durationSeconds": 0,
+      "timestamp": "2026-11-17T12:36:06.667Z"
+    }
+  ],
+  "appConfig": {
+    "appName": "Sarigram",
+    "appSubtitle": "Cloud Sync",
+    "welcomeTitle": "Welcome to Sarigram",
+    "welcomeBody": "Select a chat, group, or channel from the left sidebar to start messaging.",
+    "announcementText": "",
+    "showAnnouncement": false,
+    "brandPreset": "blue-purple",
+    "compactMode": false,
+    "showStories": true
+  }
+}

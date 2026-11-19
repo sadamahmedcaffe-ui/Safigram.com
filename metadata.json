@@ -1,0 +1,6 @@
+{
+  "name": "Sarigram",
+  "description": "Sarigram — Fast, cloud-synced messaging, channels, groups, stories, and real-time social workspace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
